@@ -31,5 +31,9 @@ public class App
         Person obj4 = factory.getBean(Human.class);
         obj4.info();
         
+        //Spring AOP
+        Aop obj5 = factory.getBean(Aop.class);
+        obj5.show();
+ 
     }
 }
