@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Aop {
 	public void show() {
-		System.out.println("I am Alien");
+		System.out.println("I am AOP");
 	}
 }
